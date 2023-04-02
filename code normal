@@ -1,0 +1,7 @@
+
+const arr = [1,12,3,4,8,5,6,-1,-8]
+let find = 12;
+for(let ele of arr){
+    if(ele===find)
+    console.log(arr.indexOf(ele));
+}
